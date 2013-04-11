@@ -1,3 +1,5 @@
+""" Pathogen
+execute pathogen#infect()
 """ Tabbing
 set nu
 set ruler
