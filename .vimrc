@@ -1,6 +1,5 @@
 """ Template
 colorscheme github
-set t_Co=256
 """ Pathogen
 execute pathogen#infect()
 """ Tabbing
