@@ -1,3 +1,6 @@
+""" Template
+colorscheme github
+set t_Co=256
 """ Pathogen
 execute pathogen#infect()
 """ Tabbing
@@ -14,6 +17,8 @@ set nosmartindent
 set expandtab
 
 """ Syntax
+syntax on
+filetype on
 autocmd FileType css setlocal shiftwidth=2 tabstop=2
 autocmd FileType html setlocal shiftwidth=2 tabstop=2
 autocmd FileType htmldjango setlocal shiftwidth=2 tabstop=2
