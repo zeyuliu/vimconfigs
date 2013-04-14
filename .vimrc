@@ -22,3 +22,6 @@ autocmd FileType css setlocal shiftwidth=2 tabstop=2
 autocmd FileType html setlocal shiftwidth=2 tabstop=2
 autocmd FileType htmldjango setlocal shiftwidth=2 tabstop=2
 autocmd FileType sass setlocal shiftwidth=2 tabstop=2
+
+""" Misc.
+set hid """ Prevent wiping undo history
