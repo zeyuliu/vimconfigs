@@ -1,7 +1,5 @@
 """ Template
 colorscheme github
-""" Pathogen
-execute pathogen#infect()
 """ Tabbing
 set nu
 set ruler
