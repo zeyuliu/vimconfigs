@@ -1,5 +1,12 @@
-""" Template
-colorscheme github
+""" Pathogen
+execute pathogen#infect()
+
+""" Color
+set t_Co=256
+set background=dark
+colorscheme solarized
+
+
 """ Tabbing
 set nu
 set ruler
