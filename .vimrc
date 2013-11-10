@@ -2,8 +2,10 @@
 execute pathogen#infect()
 
 """ Syntax
-syntax enable
 filetype on
+filetype plugin on
+syntax enable
+au BufRead, BufNewFile *.js set filetype=javascript
 autocmd FileType css setlocal shiftwidth=2 tabstop=2
 autocmd FileType html setlocal shiftwidth=2 tabstop=2
 autocmd FileType htmldjango setlocal shiftwidth=2 tabstop=2
