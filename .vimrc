@@ -2,7 +2,7 @@
 execute pathogen#infect()
 
 """ Syntax
-syntax on
+syntax enable
 filetype on
 autocmd FileType css setlocal shiftwidth=2 tabstop=2
 autocmd FileType html setlocal shiftwidth=2 tabstop=2
@@ -30,6 +30,7 @@ set autoindent
 set nocindent
 set nosmartindent
 set expandtab
+set backspace=2
 
 
 """ Misc.
